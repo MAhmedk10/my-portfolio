@@ -214,7 +214,7 @@ export default function ChatWidget() {
     setIsLoading(true);
 
     try {
-      const response = await fetch("/api/chat", {
+      const response = await fetch("https://astrik10-my-portfolio-backend.hf.space/get-response", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: userMessage }),
