@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+
+langchain-core
+langchain-google-genai
+langgraph
+langchain-community
+
+pinecone-client
+
+typing-extensions
